@@ -1,0 +1,2 @@
+# 排除模型檔案
+A4/checkpoints/*.pth
