@@ -1,9 +1,14 @@
 # ML
+# PyTorch 101
 
 ## Table of Contents
-- [PyTorch 101](#pytorch-101)
+- [Introduction](#introduction)
+- [Key Functions and Topics](#key-functions-and-topics)
+- [Highlights](#highlights)
+- [How to Use](#how-to-use)
+  
 - [Assignments](#assignments)
-  - [A1: PyTorch 101](#a1-pytorch-101)
+  - [PyTorch 101](#pytorch-101)
   - [A2: Classification Models](#a2-classification-models)
     - [Part 1: Binary Classification](#part-1-binary-classification)
     - [Part 2: Softmax Regression](#part-2-softmax-regression)
@@ -18,6 +23,7 @@
     - [VOC Evaluation](#voc-evaluation)
     - [Prediction Script](#prediction-script)
     - [YOLO with ResNet Backbone](#yolo-with-resnet-backbone)
+
 
 
 ## Introduction
