@@ -63,8 +63,6 @@ This notebook explores fundamental concepts and operations in PyTorch, a popular
 
 # Assignments
 ### PyTorch 101
-## PyTorch 101
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Key Functions and Topics](#key-functions-and-topics)
