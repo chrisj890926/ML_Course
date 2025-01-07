@@ -1,5 +1,4 @@
 # ML
-# PyTorch 101
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -63,8 +62,8 @@ This notebook explores fundamental concepts and operations in PyTorch, a popular
 [Back to Top](#table-of-contents)
 
 # Assignments
-
-# PyTorch 101
+### PyTorch 101
+## PyTorch 101
 
 ## Table of Contents
 - [Introduction](#introduction)
