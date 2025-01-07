@@ -1,4 +1,4 @@
-# ML
+## ML
 # PyTorch 101
 
 ## Table of Contents
@@ -22,6 +22,15 @@
   - [Key Concepts](#key-concepts)
   - [Code Highlights](#code-highlights)
   - [Highlights](#highlights)
+- [A4: YOLO Object Detection](#a4-yolo-object-detection)
+  - [Main Code (A4.ipynb)](#main-code-a4ipynb)
+  - [YOLO Loss](#yolo-loss)
+  - [Configuration File](#configuration-file)
+  - [Dataset Processing](#dataset-processing)
+  - [VOC Evaluation](#voc-evaluation)
+  - [Prediction Script](#prediction-script)
+  - [YOLO with ResNet Backbone](#yolo-with-resnet-backbone)
+
 
 ## Introduction
 This notebook explores fundamental concepts and operations in PyTorch, a popular machine learning framework. The main focus is to familiarize users with basic tensor manipulations, operations, and practical use cases.
