@@ -15,7 +15,7 @@
     - [Part 4: Advanced Multi-Class Classification](#part-4-advanced-multi-class-classification)
   - [A3: Classification Tasks](#a3-classification-tasks)
   - [A4: YOLO Object Detection](#a4-yolo-object-detection)
-    - [Main Code (A4.ipynb)](#main-code-a4ipynb)
+    - [Main Code](#main-code)
     - [YOLO Loss](#yolo-loss)
     - [Configuration File](#configuration-file)
     - [Dataset Processing](#dataset-processing)
@@ -618,7 +618,7 @@ plt.show()
 [Back to Top](#overview)
 
 ## A4: YOLO Object Detection
-### A4: Main Code
+### Main Code
 
 # A4: Main Code (A4.ipynb)
 
