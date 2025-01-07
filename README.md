@@ -63,7 +63,8 @@ This notebook explores fundamental concepts and operations in PyTorch, a popular
 [Back to Top](#table-of-contents)
 
 # Assignments
-## PyTorch 101
+
+# PyTorch 101
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -257,7 +258,8 @@ print(result.shape)
 [Back to Top](#table-of-contents)
 
 # A2: Classification Models
-## A2 Part 1: Binary Classification
+
+### Part 1: Binary Classification
 
 ## Overview
 In this section, we focus on building a binary classification model using logistic regression. The goal is to predict binary outcomes and evaluate performance using appropriate metrics.
@@ -318,7 +320,7 @@ X_test = scaler.transform(X_test)
 
 [Back to Top](#overview)
 
-## A2 Part 2: Softmax Regression
+### Part 2: Softmax Regression
 
 ## Overview
 This part introduces softmax regression, extending logistic regression to handle multi-class classification problems. The softmax function allows us to assign probabilities to each class, making it a powerful tool for multi-class classification.
@@ -384,7 +386,7 @@ for epoch in range(num_epochs):
 
 [Back to Top](#overview)
 
-## A2 Part 3: Multi-Class Classification
+### Part 3: Multi-Class Classification
 
 ## Overview
 This section builds on the concepts of softmax regression to implement practical multi-class classification tasks. We delve deeper into encoding techniques, evaluation metrics, and model training workflows for multi-class problems.
@@ -444,7 +446,7 @@ print(classification_report(y_test, y_pred))
 
 [Back to Top](#overview)
 
-## A2 Part 4: Advanced Multi-Class Classification
+### Part 4: Advanced Multi-Class Classification
 
 ## Overview
 This section focuses on advanced techniques for optimizing multi-class classification models. We explore feature engineering, hyperparameter tuning, and model comparisons to enhance classification performance.
@@ -619,7 +621,9 @@ plt.show()
 [Back to Top](#overview)
 
 ## A4: YOLO Object Detection
-### A4: Main Code (A4.ipynb)
+### A4: Main Code
+
+# A4: Main Code (A4.ipynb)
 
 ## Overview
 This notebook orchestrates the YOLO-based object detection pipeline, integrating model training, evaluation, and inference workflows. It utilizes modules such as dataset preparation, model configuration, and YOLO loss computation.
@@ -790,8 +794,8 @@ class YOLOLoss(nn.Module):
 ---
 
 [Back to Top](#overview)
-
-### Configuration File (config.py)
+### Configuration File
+# Configuration File (config.py)
 
 ## Overview
 This configuration file centralizes the settings for the YOLO-based object detection system. It includes parameters for dataset paths, model configurations, and training hyperparameters.
