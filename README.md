@@ -255,7 +255,8 @@ print(result.shape)
 
 [Back to Top](#table-of-contents)
 
-# A2 Part 1: Binary Classification
+# A2: Classification Models
+## A2 Part 1: Binary Classification
 
 ## Overview
 In this section, we focus on building a binary classification model using logistic regression. The goal is to predict binary outcomes and evaluate performance using appropriate metrics.
@@ -316,7 +317,7 @@ X_test = scaler.transform(X_test)
 
 [Back to Top](#overview)
 
-# A2 Part 2: Softmax Regression
+## A2 Part 2: Softmax Regression
 
 ## Overview
 This part introduces softmax regression, extending logistic regression to handle multi-class classification problems. The softmax function allows us to assign probabilities to each class, making it a powerful tool for multi-class classification.
@@ -382,7 +383,7 @@ for epoch in range(num_epochs):
 
 [Back to Top](#overview)
 
-# A2 Part 3: Multi-Class Classification
+## A2 Part 3: Multi-Class Classification
 
 ## Overview
 This section builds on the concepts of softmax regression to implement practical multi-class classification tasks. We delve deeper into encoding techniques, evaluation metrics, and model training workflows for multi-class problems.
@@ -442,7 +443,7 @@ print(classification_report(y_test, y_pred))
 
 [Back to Top](#overview)
 
-# A2 Part 4: Advanced Multi-Class Classification
+## A2 Part 4: Advanced Multi-Class Classification
 
 ## Overview
 This section focuses on advanced techniques for optimizing multi-class classification models. We explore feature engineering, hyperparameter tuning, and model comparisons to enhance classification performance.
@@ -527,7 +528,7 @@ RocCurveDisplay.from_estimator(model, X_test, y_test)
 [Back to Top](#overview)
 
 
-# A3: Classification Tasks
+## A3: Classification Tasks
 
 ## Overview
 This section focuses on a combination of classification tasks, incorporating various models and techniques to handle different datasets. The goal is to improve classification accuracy while exploring advanced evaluation methods and feature engineering.
@@ -616,7 +617,7 @@ plt.show()
 
 [Back to Top](#overview)
 
-# A4: Main Code (A4.ipynb)
+## A4: Main Code (A4.ipynb)
 
 ## Overview
 This notebook orchestrates the YOLO-based object detection pipeline, integrating model training, evaluation, and inference workflows. It utilizes modules such as dataset preparation, model configuration, and YOLO loss computation.
@@ -703,7 +704,7 @@ print(results)
 
 [Back to Top](#overview)
 
-# YOLO Loss Implementation (yolo_loss.py)
+## YOLO Loss Implementation (yolo_loss.py)
 
 ## Overview
 The YOLO loss function is critical for optimizing object detection performance. It balances the localization, confidence, and classification losses to train YOLO models effectively.
@@ -786,7 +787,7 @@ class YOLOLoss(nn.Module):
 
 [Back to Top](#overview)
 
-# Configuration File (config.py)
+## Configuration File (config.py)
 
 ## Overview
 This configuration file centralizes the settings for the YOLO-based object detection system. It includes parameters for dataset paths, model configurations, and training hyperparameters.
@@ -848,7 +849,7 @@ output_config = {
 
 [Back to Top](#overview)
 
-# Dataset Processing (dataset.py)
+## Dataset Processing (dataset.py)
 
 ## Overview
 This module handles dataset loading, preprocessing, and augmentation for YOLO-based object detection. It ensures that data is properly structured for training and evaluation.
@@ -946,7 +947,7 @@ def transform(image, boxes):
 
 [Back to Top](#overview)
 
-# VOC Evaluation (eval_voc.py)
+## VOC Evaluation (eval_voc.py)
 
 ## Overview
 This module evaluates the performance of the YOLO model on the VOC dataset. It calculates the mean Average Precision (mAP), a key metric for object detection tasks, by comparing predicted bounding boxes with ground truth annotations.
@@ -1035,7 +1036,7 @@ def compute_map(predictions, ground_truths, iou_threshold=0.5):
     return np.mean(average_precisions)
 ```
 
-## Highlights
+### Highlights
 - **Purpose**: Evaluate the YOLO model using precision-recall metrics and calculate mAP.
 - **Learning Objectives**:
   - Implement IoU-based matching for object detection.
@@ -1046,7 +1047,7 @@ def compute_map(predictions, ground_truths, iou_threshold=0.5):
 
 [Back to Top](#overview)
 
-# Prediction Script (predict.py)
+## Prediction Script (predict.py)
 
 ## Overview
 This script performs object detection on a single image or a batch of images using the trained YOLO model. It includes preprocessing, model inference, and postprocessing steps to display bounding boxes and class labels on the images.
@@ -1143,7 +1144,7 @@ def predict_image(model, image_path, labels, input_size=(448, 448)):
 
 [Back to Top](#overview)
 
-# YOLO with ResNet Backbone (resnet_yolo.py)
+## YOLO with ResNet Backbone (resnet_yolo.py)
 
 ## Overview
 This module implements the YOLO object detection network with ResNet50 as the backbone. It combines ResNet's feature extraction capabilities with YOLO's grid-based localization and classification.
