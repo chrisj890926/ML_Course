@@ -62,7 +62,8 @@ This notebook explores fundamental concepts and operations in PyTorch, a popular
 
 [Back to Top](#table-of-contents)
 
-# PyTorch 101
+# Assignments
+## PyTorch 101
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -617,7 +618,8 @@ plt.show()
 
 [Back to Top](#overview)
 
-## A4: Main Code (A4.ipynb)
+## A4: YOLO Object Detection
+### A4: Main Code (A4.ipynb)
 
 ## Overview
 This notebook orchestrates the YOLO-based object detection pipeline, integrating model training, evaluation, and inference workflows. It utilizes modules such as dataset preparation, model configuration, and YOLO loss computation.
@@ -704,7 +706,9 @@ print(results)
 
 [Back to Top](#overview)
 
-## YOLO Loss Implementation (yolo_loss.py)
+### YOLO LOSS
+
+# YOLO Loss Implementation (yolo_loss.py)
 
 ## Overview
 The YOLO loss function is critical for optimizing object detection performance. It balances the localization, confidence, and classification losses to train YOLO models effectively.
@@ -787,7 +791,7 @@ class YOLOLoss(nn.Module):
 
 [Back to Top](#overview)
 
-## Configuration File (config.py)
+### Configuration File (config.py)
 
 ## Overview
 This configuration file centralizes the settings for the YOLO-based object detection system. It includes parameters for dataset paths, model configurations, and training hyperparameters.
@@ -849,7 +853,8 @@ output_config = {
 
 [Back to Top](#overview)
 
-## Dataset Processing (dataset.py)
+### Dataset Processing
+# Dataset Processing (dataset.py)
 
 ## Overview
 This module handles dataset loading, preprocessing, and augmentation for YOLO-based object detection. It ensures that data is properly structured for training and evaluation.
@@ -947,7 +952,8 @@ def transform(image, boxes):
 
 [Back to Top](#overview)
 
-## VOC Evaluation (eval_voc.py)
+### VOC Evaluation
+# VOC Evaluation (eval_voc.py)
 
 ## Overview
 This module evaluates the performance of the YOLO model on the VOC dataset. It calculates the mean Average Precision (mAP), a key metric for object detection tasks, by comparing predicted bounding boxes with ground truth annotations.
@@ -1046,8 +1052,8 @@ def compute_map(predictions, ground_truths, iou_threshold=0.5):
 ---
 
 [Back to Top](#overview)
-
-## Prediction Script (predict.py)
+### Prediction Script
+# Prediction Script (predict.py)
 
 ## Overview
 This script performs object detection on a single image or a batch of images using the trained YOLO model. It includes preprocessing, model inference, and postprocessing steps to display bounding boxes and class labels on the images.
@@ -1143,8 +1149,8 @@ def predict_image(model, image_path, labels, input_size=(448, 448)):
 ---
 
 [Back to Top](#overview)
-
-## YOLO with ResNet Backbone (resnet_yolo.py)
+### YOLO with ResNet Backbone
+# YOLO with ResNet Backbone (resnet_yolo.py)
 
 ## Overview
 This module implements the YOLO object detection network with ResNet50 as the backbone. It combines ResNet's feature extraction capabilities with YOLO's grid-based localization and classification.
