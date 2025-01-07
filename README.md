@@ -1,36 +1,23 @@
 # ML
-# PyTorch 101
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Key Functions and Topics](#key-functions-and-topics)
-- [Highlights](#highlights)
-- [How to Use](#how-to-use)
-
-## Assignments
-- [A1: PyTorch 101](#a1-pytorch-101)
-  - [Overview](#overview)
-  - [Key Concepts](#key-concepts)
-  - [Code Highlights](#code-highlights)
-- [A2: Classification Models](#a2-classification-models)
-  - [Part 1: Binary Classification](#part-1-binary-classification)
-  - [Part 2: Softmax Regression](#part-2-softmax-regression)
-  - [Part 3: Multi-Class Classification](#part-3-multi-class-classification)
-  - [Part 4: Advanced Multi-Class Classification](#part-4-advanced-multi-class-classification)
-- [A3: Classification Tasks](#a3-classification-tasks)
-  - [Overview](#a3-overview)
-  - [Key Concepts](#a3-key-concepts)
-  - [Code Highlights](#a3-code-highlights)
-  - [Highlights](#a3-highlights)
-- [A4: YOLO Object Detection](#a4-yolo-object-detection)
-  - [Main Code (A4.ipynb)](#a4-main-code-a4ipynb)
-  - [YOLO Loss](#a4-yolo-loss)
-  - [Configuration File](#a4-configuration-file)
-  - [Dataset Processing](#a4-dataset-processing)
-  - [VOC Evaluation](#a4-voc-evaluation)
-  - [Prediction Script](#a4-prediction-script)
-  - [YOLO with ResNet Backbone](#a4-yolo-with-resnet-backbone)
-
+- [PyTorch 101](#pytorch-101)
+- [Assignments](#assignments)
+  - [A1: PyTorch 101](#a1-pytorch-101)
+  - [A2: Classification Models](#a2-classification-models)
+    - [Part 1: Binary Classification](#part-1-binary-classification)
+    - [Part 2: Softmax Regression](#part-2-softmax-regression)
+    - [Part 3: Multi-Class Classification](#part-3-multi-class-classification)
+    - [Part 4: Advanced Multi-Class Classification](#part-4-advanced-multi-class-classification)
+  - [A3: Classification Tasks](#a3-classification-tasks)
+  - [A4: YOLO Object Detection](#a4-yolo-object-detection)
+    - [Main Code (A4.ipynb)](#main-code-a4ipynb)
+    - [YOLO Loss](#yolo-loss)
+    - [Configuration File](#configuration-file)
+    - [Dataset Processing](#dataset-processing)
+    - [VOC Evaluation](#voc-evaluation)
+    - [Prediction Script](#prediction-script)
+    - [YOLO with ResNet Backbone](#yolo-with-resnet-backbone)
 
 
 ## Introduction
